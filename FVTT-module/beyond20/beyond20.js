@@ -9,9 +9,8 @@ class Beyond20 {
         const existing = this.getMyActor();
         actorData.items.push(...items);
         if (existing) {
-            actorData.data.skills = existing.data.data.skills // keep skills
-            actorData.img = existing.data.img // keep image
-            await existing.update(actorData, {diff: false, recursive: false});
+            // use existing actor
+            // await existing.update(actorData, {diff: false, recursive: false});
             return existing;
         } else {
             const actor = await Actor.create(actorData);
