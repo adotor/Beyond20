@@ -2,7 +2,7 @@
     "name": "beyond20",
     "title": "Beyond20 companion module",
     "description": "This module allows the Beyond20 rolls to display properly in the main FVTT window and for other players who do not have Beyond20 installed",
-    "version": "1.4.1",
+    "version": "1.4.1-adotor",
     "author": "KaKaRoTo",
     "systems": ["dnd5e"],
     "system": ["dnd5e"],
